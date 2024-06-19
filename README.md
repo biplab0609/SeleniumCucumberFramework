@@ -1,4 +1,4 @@
-Set up maven in MacBook Pro (Mac OS + M1 chip) - Download Maven, update JAVA_HOME and PATH variables
+**Set up maven in MacBook Pro (Mac OS + M1 chip) - Download Maven, update JAVA_HOME and PATH variables**
 follow the steps below:
 
 check if JAVA_HOME is defined in your Mac OS + M1 chip
@@ -48,7 +48,7 @@ mvn -v
 
 ***************************************************************************************************
 
-Jenkins Setup
+**Jenkins Setup**
 
 Jenkins can be installed using the Homebrew package manager. Homebrew formula: jenkins-lts This is a package supported by a third party which may be not as frequently updated as packages supported by the Jenkins project directly.
 Sample commands:
@@ -64,6 +64,6 @@ Username = admin
 Password = cat /Users/<username>/.jenkins/secrets/initialAdminPassword
 
 ****************************************************************************************************
-CLI Command :
+**CLI Command :**
 export PATH=/Users/<username>/IdeaProjects/apache-maven-3.9.7/bin:$PATH
 mvn test -Dcucumber.filter.tags="@SmokeTest" -Dbrowser="chrome" 
